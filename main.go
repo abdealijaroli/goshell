@@ -11,7 +11,7 @@ import (
 
 func main() {
 	reader := bufio.NewReader(os.Stdin)
-	for {
+	for {   
 		fmt.Print("> ")
 		// Read the keyboad input.
 		input, err := reader.ReadString('\n')
